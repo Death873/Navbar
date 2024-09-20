@@ -1,0 +1,42 @@
+nav
+{
+display: flex;
+  justify-content: space-around;
+  padding: 10px 20px 10px 20px; 
+  font-size: 1.3rem; 
+  font-family: 'Time Square', Tahoma, Geneva, Verdana, sans-serif; 
+  background-color: lime; 
+} 
+.right 
+{
+  display : flex;
+  justify- content: space-around;
+} 
+.about 
+{
+  margin: 0px 20px 0px 20px;
+  
+}
+button
+{
+  cursor: pointer;
+  border: 1px;
+  background: #c74c63df;
+  border-radius: 6px;
+  font: 600 22px 'montserrat';
+  box-shadow: 0 6px 0 #ff0030;
+  transition: .3s;
+}
+button : active
+{
+  transform: translateY(5px);
+  box-shadow: 0
+  3px 0 #ff0030;
+}
+button :hover
+{
+  color: cyan;
+  background: black;
+  transition-duration: 1s;
+  box-shadow: 6px 6px 0 brown;
+}
